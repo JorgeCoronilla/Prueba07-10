@@ -1,0 +1,9 @@
+#busqueda {
+    visibility: hidden;
+}
+#cambio {
+    visibility: hidden;
+}
+body {
+    background-color: antiquewhite;
+}

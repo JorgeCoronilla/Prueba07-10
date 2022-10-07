@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="" id="">
+        <label for="name"><span>Nombre</span></label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="surname"><span>Apellido</span></label><br>
+        <input type="text" name="surname" id="surname"><br>
+    </form>
+    <button onclick="pasaDatos();">Enviar</button>
+    <div>
+        <h1>Datos del último empleado introducido</h1>
+        <h2>Nombre: </h2>
+        <h3>-></h3>
+        <h2>Apellidos: </h2>
+        <h4>-></h4>
+    </div>
+    <button onclick="abreBuscar();">Modificar datos</button>
+    <h5>Empleados almacenados</h5>
+    <p></p>
+    <div id="busqueda">
+        <form action="">
+            <h6>Introduzca el nombre o el apellido del empleado que quiere cambiar.</h6>
+            <label for="name1"><span>Nombre</span></label><br>
+            <input type="text" name="name1" id="name1"><br>
+            <label for="surname1"><span>Apellido</span></label><br>
+            <input type="text" name="surname1" id="surname1"><br>
+        </form>
+        <button onclick="buscar();">Enviar</button>
+    </div>
+    <div id="cambio">
+        <form action="">
+            <h6>Introduzca los nuevos datos.</h6>
+            <label for="name2"><span>Nombre</span></label><br>
+            <input type="text" name="name2" id="name2"><br>
+            <label for="surname2"><span>Apellido</span></label><br>
+            <input type="text" name="surname2" id="surname2"><br>
+        </form>
+        <button onclick="buscar();">Enviar</button>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
