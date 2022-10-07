@@ -58,7 +58,7 @@ function cambiaEmpleado(indice) {
     document.getElementById("cambio").style.visibility = "visivle";
     var name2 = document.getElementById("name2").value;
     var surname2 = document.getElementById("surname2").value;
-    empleados.Empleados[indice]={ "Nombre": "John", "Apellido": "Doe" };
+    empleados.Empleados[indice]={ "Nombre": name2, "Apellido": surname2 };
     /*
     empleados.Empleados[indice].Nombre = name2
     empleados.Empleados[indice].Apellido = surname2*/
